@@ -195,7 +195,7 @@ void verificarSuspeitoFinal(PistaNode* raizPistas, TabelaHash* ht) {
         printf("\n[SUCESSO] Justica feita! Voce tinha provas robustas suficentes.\n");
         printf("O culpado %s foi preso em flagrante!\n", acusacao);
     } else {
-        printf("\n[FRACASSO] O caso desmoronou! O advogado de %s conseguiu a absolvicao.\n", acusacao);
+        printf("\n[FRACASSO] O caso desmoronou! O advogado do %s conseguiu a absolvicao.\n", acusacao);
         printf("Motivo: Menos de 2 pistas concretas ligavam o suspeito ao crime.\n");
     }
     printf("==================================================\n");
